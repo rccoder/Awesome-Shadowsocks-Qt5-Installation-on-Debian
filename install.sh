@@ -9,8 +9,8 @@ git clone https://github.com/shadowsocks/libQtShadowsocks
 cd libQtShadowsocks
 dpkg-buildpackage -uc -us -b
 cd ..
-sudo dpkg -i libqtshadowsocks-dev*.deb
 sudo dpkg -i libqtshadowsocks_*.deb
+sudo dpkg -i libqtshadowsocks-dev*.deb
 
 sudo apt-get install qt5-qmake qtbase5-dev libqrencode-dev libappindicator-dev libzbar-dev libbotan1.10-dev -y
 git clone https://github.com/shadowsocks/shadowsocks-qt5
