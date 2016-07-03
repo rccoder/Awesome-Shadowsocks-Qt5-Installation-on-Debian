@@ -4,7 +4,7 @@ mkdir shadowsocks_qt5
 cd shadowsocks_qt5
 sudo apt-get install git -y
 
-sudo apt-get install qt5-qmake qtbase5-dev libbotan1.10-dev -y
+sudo apt-get install qt5-qmake qtbase5-dev libbotan1.10-dev g++ -y
 git clone https://github.com/shadowsocks/libQtShadowsocks
 cd libQtShadowsocks
 dpkg-buildpackage -uc -us -b
